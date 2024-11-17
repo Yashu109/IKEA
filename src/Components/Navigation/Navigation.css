@@ -1,0 +1,17 @@
+.navigation-tabs {
+    display: flex;
+    gap: 10px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .tab {
+    padding: 10px 20px;
+   
+    cursor: pointer;
+   
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  

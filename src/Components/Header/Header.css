@@ -1,0 +1,29 @@
+/* Top Navbar Styling */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+  position: relative;
+  line-height: 1.571;
+  height: 2rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+
+.top-navbar-left,
+.top-navbar-right {
+  display: flex;
+  gap: 16px;
+}
+
+.top-navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #b3b3b3;
+}

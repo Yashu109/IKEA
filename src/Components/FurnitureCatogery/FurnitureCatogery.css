@@ -1,0 +1,50 @@
+.carousel-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 10px; 
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    padding: 10px;
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 23%;
+    text-align: center;
+    padding: 5px;
+    background: #fff;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .carousel-info {
+    margin-top: 10px;
+  }
+  
+  .carousel-info h3 {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .carousel-info p {
+    font-size: 0.9rem;
+    color: #555;
+  }

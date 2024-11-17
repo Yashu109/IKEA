@@ -1,0 +1,49 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo img {
+  width: 80px;
+}
+
+.navbar-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 16px;
+  /* background-color: #ddd; */
+  color: #ddd;
+}
+
+.navbar-search input {
+  width: 100%;
+  padding: 8px 40px 8px 16px; /* Extra padding on right for the icon */
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #dddddd38;
+  /* margin-left: 100px; */
+}
+
+.camera-icon {
+  position: absolute;
+  right: 12px; /* Adjust to align the icon inside the input */
+  font-size: 16px;
+  color: #666;
+  pointer-events: none; /* Ensures icon doesn't interfere with clicking inside input */
+}
+
+.navbar-right {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  color: #333;
+}
